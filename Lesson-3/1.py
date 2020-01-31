@@ -7,8 +7,3 @@ def my_func(x, y):
     except ValueError:
         return "введите число"
 print(my_func(int(input("Введите x = ")), int(input("Введите y = "))))
-
-
-
-
-

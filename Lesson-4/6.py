@@ -7,6 +7,8 @@ def my_count_func(start_number, stop_number):
             break
         else:
             print(el)
+
+
 def my_cycle_func(my_list, iteration):
     i = 0
     iter = cycle(my_list)

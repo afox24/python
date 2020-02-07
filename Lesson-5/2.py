@@ -1,0 +1,8 @@
+my_f = open("test_2", "r")
+content = my_f.readlines()
+print(f'Количество строк в файле - {len(content)}')
+my_f = open("test_2", "r")
+words = my_f.read()
+words = words.split()
+print(f'Общее количество слов - {len(words)}')
+my_f.close()

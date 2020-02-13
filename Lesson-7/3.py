@@ -2,6 +2,9 @@ class Cell:
     def __init__(self, quantity):
         self.quantity = int(quantity)
 
+    def __str__(self):
+        return f'Результат операции {self.quantity * "*"}'
+
     def __add__(self, other):
         return Cell(self.quantity + other.quantity)
 

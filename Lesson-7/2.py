@@ -38,5 +38,3 @@ print(coat.get_square_full)
 print(suit.get_square_full)
 print(suit.get_square_c())
 print(suit.get_square_s())
-
-

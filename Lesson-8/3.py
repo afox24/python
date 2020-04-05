@@ -19,5 +19,6 @@ class Error:
                 else:
                     return f'Вы вышли'
 
+
 try_except = Error(1)
 print(try_except.my_input())

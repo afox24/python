@@ -28,7 +28,6 @@ class Data:
     def __str__(self):
         return f'Текущая дата {Data.extract(self.day_month_year)}'
 
-
 today = Data('11 - 1 - 2001')
 print(today)
 print(Data.valid(11, 11, 2022))

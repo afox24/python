@@ -15,3 +15,4 @@ div = DivisionByNull(10, 100)
 print(DivisionByNull.divide_by_null(10, 0))
 print(DivisionByNull.divide_by_null(10, 0.1))
 print(div.divide_by_null(100, 0))
+

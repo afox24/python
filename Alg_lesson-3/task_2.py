@@ -8,10 +8,10 @@ SIZE = 100
 MIN_ITEM = 0
 MAX_ITEM = 1000
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
-even = []
+n = []
 
 for i in range(SIZE):
     if array[i] % 2 == 0:
-        even.append(i)
+        n.append(i)
 print(array)
-print('Индексы четных элементов: ', even)
+print('Индексы четных элементов: ', n)

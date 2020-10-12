@@ -1,0 +1,18 @@
+{
+    "order{
+    "item": "Iphone X",
+    "quantity": 25,
+    "price": 1000.0,
+    "buyer": "Ivanov I.I.",
+    "date": "10.10.2021"
+}s": [
+
+{
+    "item": "printer",
+    "quantity": "1",
+     "price": "2000",
+     "buyer": "Ivanov I.I.",
+     "date": "07.10.2020"
+}
+    ]
+}
